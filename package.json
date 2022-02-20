@@ -1,0 +1,20 @@
+{
+  "name": "hxchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "electron-packager . --overwrite --icon=./res/icon.ico"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.4"
+  },
+  "dependencies": {
+    "electron-packager": "^15.2.0",
+    "jquery": "^3.5.1"
+  }
+}
